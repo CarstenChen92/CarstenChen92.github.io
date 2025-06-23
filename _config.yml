@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : ""
+title                    : "Gaoming (Carsten) Chen"
 title_separator          : "-"
 name                     : &name "Gaoming Chen"
 description              : &description "Personal website of "
@@ -23,7 +23,7 @@ repository               : "CarstenChen92/CarstenChen92.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Gaoming (Carsten) Chen"
+  # name             : 
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
   location         : "Baltimore, MD"
