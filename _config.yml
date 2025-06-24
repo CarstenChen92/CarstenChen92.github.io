@@ -26,8 +26,10 @@ author:
   # name             : 
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
-  location         : "Baltimore, MD"
+  location         :
   employer         : "Johns Hopkins University"
+  department       : "Department of Applied Mathematics and Statistics"
+  office           : "Wyman Park Building S413"
   uri              : # URL
   email            : "gchen65@jhu.edu" 
 
