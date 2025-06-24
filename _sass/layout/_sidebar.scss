@@ -166,11 +166,6 @@
   position: relative;
   cursor: pointer;
 
-  max-width: 100%;         
-  white-space: normal;      
-  word-break: break-word;   
-  overflow-wrap: break-word;
-
   li:last-child {
     a {
       margin-bottom: 0;
@@ -249,7 +244,11 @@
   }
 
   li {
-    white-space: nowrap;
+    // white-space: nowrap;
+    max-width: 100%;          // 限制最大宽度，防止撑破容器
+    white-space: normal;      // 允许换行
+    word-break: break-word;   // 长单词自动换行
+    overflow-wrap: break-word;
   }
 
   a {
