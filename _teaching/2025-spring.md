@@ -1,4 +1,7 @@
 ---
-title: "Intro to Data Science, EN.553.636, 2025 Spring, Johns Hopkins University, Teaching Assistance."
+semester：2024 Spring
+course: Intro to Data Science
+code: EN.553.636
+location: Johns Hopkins University
+position: Teaching Assistance
 ---
-

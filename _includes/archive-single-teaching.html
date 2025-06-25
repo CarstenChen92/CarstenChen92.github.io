@@ -15,19 +15,11 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <p class="archive__item-citation" itemprop="description">
-      {% if post.authors %}{{ post.authors }}, {% endif %}
-      {% if post.title %}
-        "{{ post.title }}",
-      {% endif %}
-      {% if post.journal %}
-        <i>{{ post.journal }}</i>
-      {% endif %}
-      {% if post.volume %}, vol. {{ post.volume }}{% endif %}
-      {% if post.number %}, no. {{ post.number }}{% endif %}
-      {% if post.pages %}, pp. {{ post.pages }}{% endif %}
-      {% if post.year %}, {{ post.year }}{% endif %}.
-      {% if post.location %}, {{ post.location }}{% endif %}
-      {% if post.date %}, {{ post.date }}.{% endif %}
+      {% if post.semester %}{{ post.semester }}, {% endif %}
+      {% if post.course %}<strong>{{ post.course }}</strong>, {% endif %}
+      {% if post.code %}<i>{{ post.code }}</i>, {% endif %}
+      {% if post.location %}{{ post.location }}, {% endif %}
+      {% if post.position %}{{ post.position }}. {% endif %}
       {% if post.link %}<a href="{{ post.link }}" target="_blank"><i class="fa fa-external-link"></i></a>{% endif %}
     </p>
   </article>
