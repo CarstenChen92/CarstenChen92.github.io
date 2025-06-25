@@ -221,15 +221,15 @@ collections:
     output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
-defaults:
+#defaults:
   # _posts
 #  - scope:
 #      path: ""
@@ -249,31 +249,31 @@ defaults:
 #      layout: single
 #      author_profile: true
   # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+#  - scope:
+#      path: ""
+#      type: teaching
+#    values:
+#      layout: single
+#      author_profile: true
+#      share: true
+#      comments: true
+#  # _publications
+#  - scope:
+#      path: ""
+#      type: publications
+#    values:
+#      layout: single
+#      author_profile: true
+#      share: true
+#      comments: true
+#  # _talks
+#  - scope:
+#      path: ""
+#      type: talks
+#    values:
+#      layout: talk
+#      author_profile: true
+#      share: true
 
 
 # Sass/SCSS
