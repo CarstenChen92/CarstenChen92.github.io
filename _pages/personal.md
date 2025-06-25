@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /personal/
-# title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Personal"
 author_profile: true
 
 ---
