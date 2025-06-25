@@ -228,7 +228,7 @@ collections:
   publications:
     output: false
     permalink: /:collection/:path/
-  talks:
+  services:
     output: false
     permalink: /:collection/:path/
 
