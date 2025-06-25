@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a ...
+I am a 2nd-year PhD in Johns Hopkins University, Department of Applied Mathematics and Statistics. Before coming to JHU, I finished my undergraduate study in Renmin University of China, School of Mathematics. I am currently interested in experimental design of inverse problem.
