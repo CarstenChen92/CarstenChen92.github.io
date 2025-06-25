@@ -1,0 +1,28 @@
+---
+layout: archive
+title: "Services"
+permalink: /services/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% if site.service_category %}
+  {% for category in site.service_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.services reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single-service.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.services reversed %}
+    {% include archive-single-service.html %}
+  {% endfor %}
+{% endif %}
