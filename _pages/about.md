@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a 2nd-year PhD in Johns Hopkins University, Department of Applied Mathematics and Statistics. Before coming to JHU, I finished my undergraduate study in Renmin University of China, School of Mathematics. I am currently interested in experimental design of inverse problem.
+I am a second-year Ph.D. student in the Department of Applied Mathematics and Statistics at Johns Hopkins University, advised by Dr. Fadil Santosa. Prior to joining Johns Hopkins, I completed my undergraduate studies in the School of Mathematics at Renmin University of China. My current research interests include homogenization problems for PDEs, inverse problems for PDEs, and experimental design.
