@@ -17,7 +17,7 @@
     <p class="archive__item-citation" itemprop="description">
       {% if post.authors %}<strong>{{ post.authors }}</strong>, {% endif %}
       {% if post.title %}<i>{{ post.title }}</i>, {% endif %}
-      {% if post.venue %}presented at <strong>{{ post.event }}</strong>, {% endif %}
+      {% if post.venue %}presented at <strong>{{ post.venue }}</strong>, {% endif %}
       {% if post.location %}{{ post.location }}, {% endif %}
       {% if post.day %}{{ post.day }}.{% endif %}
       {% if post.link %}<a href="{{ post.link }}" target="_blank"><i class="fa fa-external-link"></i></a>{% endif %}
